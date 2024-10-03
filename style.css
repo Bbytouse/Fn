@@ -1,0 +1,19 @@
+.cus-cart {
+    width: 15rem !important; /* Force this to take precedence */
+ }
+
+@media (max-width: 505px) and (min-width: 340px) {
+    .cus-cart{
+      width: 10rem !important; /* Adjust to a smaller size */
+    }
+  }
+  @media (max-width: 340px) and (min-width: 290px) {
+    .cus-cart{
+      width: 8rem !important; /* Adjust to a smaller size */
+    }
+  }
+  @media (max-width: 1336px) and (min-width: 991px) {
+    .cus-cart{
+      width: 10rem !important; /* Adjust to a smaller size */
+    }
+  }
